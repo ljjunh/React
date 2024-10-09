@@ -10,7 +10,7 @@ import LoginPage from "pages/login";
 import SignupPage from "pages/signup";
 
 export default function Router() {
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
+  const [isAuthenticated] = useState<boolean>(false);
   return (
     <>
       <Routes>
